@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(32, 33, 52)
+}
+
+@font-face {
+    font-family: madou;
+    src: url(madoufmg.ttf);
+}
+
+h1{
+    font-family: madou;
+    color:rgb(93, 125, 240);
+    text-align: center;
+}
+a{
+    font-family: madou;
+    color:rgb(214, 215, 255)
+}
+ul{
+    font-family: madou;
+    color:rgb(214, 215, 255);
+    position: absolute;
+    left: 50px;
+}
