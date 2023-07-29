@@ -3,22 +3,25 @@ body{
 }
 
 @font-face {
-    font-family: madou;
-    src: url(madoufmg.ttf);
+    font-family: mplus;
+    src: url(rounded-mplus-1p-regular.ttf);
 }
 
 h1{
-    font-family: madou;
+    font-family: mplus;
     color:rgb(141, 214, 118);
     text-align: center;
 }
+
 a{
-    font-family: madou;
-    color:rgb(214, 215, 255)
-}
-ul{
-    font-family: madou;
+    font-family: mplus;
     color:rgb(214, 215, 255);
-    left: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul{
+    font-family: mplus;
+    color:rgb(214, 215, 255);
     font-size: 20px;
 }
