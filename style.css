@@ -1,27 +1,28 @@
 body{
-    background-color: rgb(32, 33, 52)
+    background-color: rgb(32, 33, 52);
+    font-family: pixel;
 }
 
 @font-face {
-    font-family: mplus;
-    src: url(JF-Dot-Kappa20-0213.ttf);
+    font-family: pixel;
+    src: url(./fonts/JF-Dot-Kappa20-0213.ttf)
 }
 
 h1{
-    font-family: mplus;
     color:rgb(141, 214, 118);
-    text-align: center;
 }
 
+h1,
 a{
-    font-family: mplus;
-    color:rgb(214, 215, 255);
-    font-size: 20px;
     text-align: center;
 }
 
+a,
 ul{
-    font-family: mplus;
     color:rgb(214, 215, 255);
     font-size: 20px;
+}
+
+li {
+    margin: 8px 0 8px;
 }
