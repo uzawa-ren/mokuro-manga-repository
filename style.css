@@ -1,28 +1,77 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  }
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
 body{
-    background-color: rgb(32, 33, 52);
-    font-family: pixel;
+  background-color: rgb(32, 33, 52);
+  font-family: NotoSerifJP;
+  min-height: 100vh;
 }
 
 @font-face {
-    font-family: pixel;
-    src: url(./fonts/JF-Dot-Kappa20-0213.ttf)
+  font-family: NotoSerifJP;
+  src: url(./fonts/NotoSerifJP-Variable.ttf)
 }
 
 h1{
-    color:rgb(141, 214, 118);
+  color:rgb(214, 215, 255);
 }
 
 h1,
 a{
-    text-align: center;
+  text-align: center;
+  text-decoration: none;
 }
 
 a,
 ul{
-    color:rgb(214, 215, 255);
-    font-size: 20px;
+  color:rgb(196, 197, 230);
 }
 
 li {
-    margin: 8px 0 8px;
+  margin: 8px 0 8px;
+}
+
+li a, a[href='../index.html'] {
+  font-size: 1.3rem;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgb(106, 107, 141);
+}
+
+.wrapper {
+  padding: 0 20px;
+}
+
+.volume {
+  margin: 40px;
 }
